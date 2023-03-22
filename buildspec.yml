@@ -14,4 +14,4 @@ phases:
       - dotnet publish -c Release -o ./app/ AWSCodePipeLineDemo/AWSCodePipeLineDemo.csproj
 artifacts:
   files:
-    - '**/*'
+    - ./**/*
